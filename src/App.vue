@@ -3,13 +3,24 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <button class="btn btn-outline-secondary m-1 p-1">Open</button>
     </nav>
     <router-view/>
   </div>
 
 </template>
 
+<script>
+import path from 'path';
+
+export default {
+  
+}
+</script>
+
 <style>
+@import 'highlight.js/styles/atom-one-dark.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

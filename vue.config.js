@@ -10,5 +10,10 @@ module.exports = defineConfig({
         languages: ['markdown']
       })
     ]
+  },
+  pluginOptions: {
+    electronBuilder: {
+      nodeIntegration: true
+    }
   }
 })
