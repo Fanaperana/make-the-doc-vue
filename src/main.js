@@ -10,6 +10,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 import '@/assets/css/style.css'
 
+import 'highlight.js/styles/atom-one-dark.css'
+
+import hljs from 'highlight.js'
+
+hljs.highlightAll()
+
 // import * as monaco from 'monaco-editor'
 
 
