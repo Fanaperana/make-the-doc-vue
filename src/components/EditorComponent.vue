@@ -15,22 +15,13 @@
 <script>
 import * as monaco from 'monaco-editor';
 import { marked } from 'marked';
-import hljs from 'highlight.js'
-import 'highlight.js/styles/atom-one-dark.css'
+
+
+
 
 import MarkupComponent from './MarkupComponent.vue'
 
 const themeMonaco = () => import('monaco-themes/themes/monoindustrial.json')
-
-import fs from 'fs'
-import path from 'path'
-
-try {
-    const data = fs.readFileSync(path.resolve('node_modules','monaco-themes','themes','monoindustrial.json'), 'utf8')
-
-} catch (err) {
-  console.error(err)
-}
 
 
 export default {

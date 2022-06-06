@@ -13,3 +13,7 @@ body, html{
 *{
     font-family: "Space Mono";
 }
+
+pre {
+    border-radius: 3px;
+}
