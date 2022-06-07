@@ -6,6 +6,9 @@
       <button class="btn btn-outline-secondary m-1 p-1">Open</button>
     </nav>
     <router-view/>
+    <div class="w-100" id="footnote">
+      <span>Line: 12</span>
+    </div>
   </div>
 
 </template>

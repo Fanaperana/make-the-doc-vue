@@ -1,23 +1,20 @@
 <template>
-    <div class="w-100 h-100 p-2">
+    <div class="w-100 h-100 p-2 bg-light">
 
         <div class="d-flex flex-row h-100">
             <div class="w-100">
                 <div id="editor" class="w-100 h-100 rounded overflow-hidden"></div>
             </div>
-            <div class="w-100 h-100 p-2">
+            <div class="w-100 h-100 p-2 bg-white">
                 <markup v-bind:markdown="content"></markup>
             </div>
         </div>
+
     </div>
 </template>
 
 <script>
 import * as monaco from 'monaco-editor';
-import { marked } from 'marked';
-
-
-
 
 import MarkupComponent from './MarkupComponent.vue'
 
